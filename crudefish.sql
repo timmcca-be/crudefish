@@ -52,7 +52,7 @@ CREATE TABLE `users` (
   `user` text NOT NULL,
   `pass` text NOT NULL,
   `email` text NOT NULL,
-  `confirmation` text NOT NULL,
+  `confirmation` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
