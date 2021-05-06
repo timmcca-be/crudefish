@@ -3,8 +3,8 @@
 // This gives the rest of the page access to $conn, which is the connection
 if(!isset($conn)) {
     $hostName = "localhost";
-    $mysqliUsername = "tim";
-    $mysqliPassword = 'qd9CF$sXm%5TkE9cC';
+    $mysqliUsername = "site";
+    $mysqliPassword = 'changeme';
     $databaseName = "crudefish";
 
     $conn = new mysqli($hostName, $mysqliUsername, $mysqliPassword, $databaseName);
