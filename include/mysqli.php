@@ -1,5 +1,5 @@
 <?php
-$config = parse_ini_file('config.ini')
+$config = parse_ini_file('config.ini');
 // Get connection to SQL database
 // This gives the rest of the page access to $conn, which is the connection
 if(!isset($conn)) {
