@@ -1,0 +1,113 @@
+* {
+    font-family: Helvetica, sans-serif;
+} a {
+    text-decoration: none;
+} body {
+    margin: 5em 0 0 0;
+    padding-top: 0.5em;
+} br {
+    height: 1em;
+} form {
+    margin: 0 10% 0 10%;
+} form p {
+    margin: 0.4em;
+} input {
+    height: 1.6em;
+} input, textarea {
+    font-size: 1.2em;
+    margin: 0.2em;
+    width: 90%;
+} h1 {
+    color: #555555;
+    font-size: 4em;
+} h1, h2, h3, h3 a {
+    letter-spacing: 1px;
+    font-family: "Paytone One", Verdana, sans-serif;
+} h1, h2, h3, h3 a, p {
+    text-align: center;
+} h2 {
+    vertical-align: middle;
+    font-size: 1.7em;
+        transition: color 80ms;
+} h3 {
+    line-height: 1em;
+    color: #393939;
+    font-size: 2.5em;
+} h3 a:hover {
+    color: #f2fbfc;
+} h3, p {
+    word-wrap: break-word;
+} p {
+    color: #333333;
+    font-size: 1.3em;
+    font-weight: 400;
+} p a {
+    color: #7acbd7;
+    font-weight: 900;
+} p a:hover {
+    color: #aee5ed
+} .articlesNav .navButton {
+    margin: 0 0.5% 0 0.5%;
+} .contentDisplay {
+    margin-left: 9%;
+    padding: 1%;
+} .contentDisplay p {
+    color: #51afbc;
+    margin-bottom: 0.5em;
+} .contentDisplay, form {
+    width: 80%;
+} .navButton, h1, h2, h3, p {
+    margin: 0;
+} .frontPageDiv {
+    margin-top: 1em;
+    width: 66%;
+} .frontPageDiv, .navButton, .preview {
+    display: inline-block;
+} .navButton {
+    padding: 0 0.5em 0 0.5em;
+    height: 3em;
+    line-height: 3em;
+} .preview {
+    width: 31.3%;
+    margin: 0.5%;
+    padding: 0.6em 0.5% 0.6em 0.5%;
+} .preview h3 {
+    margin-bottom: 0.2em;
+} .preview p, h2, h3 a {
+    color: #c5ecf1;
+} .siteDescription {
+    margin: 1em 2% 0 2%;
+} #footer {
+    border-top: 1em solid #ffffff;
+} #footer, #navbar, #previews, .articlesNav, br, h3 {
+    display: block;
+} #footer, #navbar, .contentDisplay, .navButton, .preview {
+    background-color: #333333;
+} #footer, #previews, .articlesNav {
+    clear: both;
+} #logInForm, #signUpForm, .siteDescription {
+    width: 30%;
+} #logo {
+    margin: 0.25em 0.75em 0.25em 0.75em;
+    height: 4.5em;
+    display: inline;
+} #logo, .navButton, .siteDescription, #logInForm, form p, .preview {
+    float: left;
+} #navbar {
+    margin-top: -5.5em;
+    position: fixed;
+    box-shadow: 0 0 5px #666666;
+} #navbar .navButton {
+    line-height: 5em;
+} #navbar, #footer, #bigLogo, body {
+    width: 100%;
+} #navbar, #navbar .navButton {
+    height: 5em;
+} #profileButton, #logout, #logInSignUp, #signUpForm, #edit {
+    float: right;
+} #views {
+    font-size: 1.1em;
+    color: #666666;
+    margin-right: 9%;
+    text-align: right;
+}
