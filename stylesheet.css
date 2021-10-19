@@ -20,23 +20,28 @@
 } h1 {
     color: #555555;
     font-size: 4em;
-} h1, h2, h3, h3 a {
+} h1, h2, h3, h3 a, h4 {
     letter-spacing: 1px;
     font-family: "Paytone One", Verdana, sans-serif;
-} h1, h2, h3, h3 a, p {
+} h1, h2, h3, h3 a, h4, p {
     text-align: center;
 } h2 {
     vertical-align: middle;
     font-size: 1.7em;
         transition: color 80ms;
-} h3 {
+} h3, h4 {
     line-height: 1em;
     color: #393939;
+} h3 {
     font-size: 2.5em;
+} h4 {
+    font-size: 1.5em;
 } h3 a:hover {
     color: #f2fbfc;
 } h3, p {
     word-wrap: break-word;
+} .siteDescription > p {
+    margin-bottom: 0.5em;
 } p {
     color: #333333;
     font-size: 1.3em;
